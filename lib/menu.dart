@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:proyectomuebleria/datos.dart';
+import 'package:proyectomuebleria/features/inicio/pagina_inicio.dart';
 import 'package:proyectomuebleria/tema.dart';
 import 'package:proyectomuebleria/vistaareas.dart';
 import 'package:proyectomuebleria/vistacuentas.dart';
-import 'package:proyectomuebleria/vistainicio.dart';
 import 'package:proyectomuebleria/vistainventario.dart';
 import 'package:proyectomuebleria/vistapanel.dart';
 import 'package:proyectomuebleria/vistapedidos.dart';
@@ -80,7 +80,7 @@ class _MenuState extends State<Menu> {
           TextButton(
             onPressed: () {
               Navigator.of(context).pushAndRemoveUntil(
-                MaterialPageRoute(builder: (_) => const VistaInicio()),
+                MaterialPageRoute(builder: (_) => const PaginaInicio()),
                     (_) => false,
               );
             },

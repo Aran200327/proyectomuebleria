@@ -63,6 +63,10 @@ final cuentas = [
   Cuenta('Esthefany', 'Dueña'),
   Cuenta('Karyme', 'Encargada'),
   Cuenta('Encargada 3', 'Encargada'),
+  Cuenta('Encargada 4', 'Encargada'),
+  Cuenta('Encargada 5', 'Encargada'),
+  Cuenta('Encargada 6', 'Encargada'),
+  Cuenta('Encargada 7', 'Encargada'),
 ];
 
 bool esDuena(String nombre) =>

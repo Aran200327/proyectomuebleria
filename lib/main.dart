@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:proyectomuebleria/features/inicio/pagina_inicio.dart';
 import 'package:proyectomuebleria/tema.dart';
-import 'package:proyectomuebleria/vistainicio.dart';
 
 void main() {
   runApp(const MainApp());
@@ -37,7 +37,7 @@ class _SplashState extends State<Splash> {
     Timer(const Duration(seconds: 2), () {
       if (!mounted) return;
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => const VistaInicio()),
+        MaterialPageRoute(builder: (_) => const PaginaInicio()),
       );
     });
   }
